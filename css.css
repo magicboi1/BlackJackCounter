@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Pixeboy";
+  src: url(/home/vlee/.cache/.fr-pjn1nF/Pixeboy);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 30px solid;
+  padding-bottom: 0;
+  font-family: "Pixeboy";
+  background-color: rgb(227, 218, 201);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18vh;
+  font-size: 45px;
+  font-family: "Pixeboy";
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.picture {
+  height: 70em;
+  width: 70em;
+  display: flex;
+  align-items: center;
+  border: dotted 20px black;
+  border-radius: 100px;
+  margin-top: 1200px;
+}
+
+button {
+  height: 10vh;
+  width: 20vh;
+  font-size: 80px;
+  padding: 5px;
+  border-radius: 50px;
+  font-family: "Pixeboy";
+  margin-top: 355px;
+}
+
+h1 {
+  font-family: "Pixeboy";
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
