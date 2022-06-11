@@ -3,23 +3,23 @@
   src: url(/home/vlee/.cache/.fr-pjn1nF/Pixeboy);
 }
 
-body {
+.frontpage {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 30px solid;
   padding-bottom: 0;
   font-family: "Pixeboy";
   background-color: rgb(227, 218, 201);
+  margin: auto;
 }
 
 .title {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 18vh;
-  font-size: 45px;
+  margin-top: 0px;
+  font-size: 200px;
   font-family: "Pixeboy";
 }
 
@@ -35,7 +35,7 @@ img {
   align-items: center;
   border: dotted 20px black;
   border-radius: 100px;
-  margin-top: 1200px;
+  margin-top: 50em;
 }
 
 button {
@@ -45,11 +45,14 @@ button {
   padding: 5px;
   border-radius: 50px;
   font-family: "Pixeboy";
-  margin-top: 355px;
+  margin-top: 750px;
 }
 
 h1 {
   font-family: "Pixeboy";
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
 }
 
 .info {
@@ -57,4 +60,137 @@ h1 {
   justify-content: center;
   align-items: center;
   font-size: 30px;
+}
+
+.userpage {
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  flex-direction: column;
+  border: 30px solid;
+  padding-bottom: 0;
+  font-family: "Pixeboy";
+  background-color: rgb(227, 218, 201);
+}
+
+#left {
+  width: 125rem;
+  height: 125rem;
+  border-radius: 80px;
+}
+
+#right {
+  width: 125rem;
+  height: 125rem;
+  border-radius: 80px;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.topbar {
+  font-size: 400px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 600px;
+  margin-top: 0px;
+}
+
+.refs {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  margin-top: 50px;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  margin-top: -400px;
+}
+
+.chart {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#theImage {
+  visibility: hidden;
+  height: 100em;
+  width: 100em;
+}
+
+#showImage {
+  font-size: 150px;
+}
+
+.info {
+  font-family: "Pixeboy";
+}
+
+#rollbit {
+  height: 200px;
+  width: 200px;
+}
+
+#stake {
+  height: 200px;
+  width: 200px;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
+}
+
+.referrals {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 25px;
+}
+
+#faq {
+  height: 20rem;
+  width: 20rem;
+  background-color: gainsboro;
+  margin-top: -300px;
+}
+
+#reset {
+  background-color: gainsboro;
+}
+
+.faqpage {
+  background-color: gainsboro;
+}
+
+.returnhome {
+  display: flex;
+  justify-content: center;
+}
+
+#back {
+  height: 150px;
+  width: 300px;
+  margin-top: 200px;
+}
+
+#fronttitle {
+  margin-top: 7em;
+  font-size: 0.75em;
 }

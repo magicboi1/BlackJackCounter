@@ -7,11 +7,44 @@
     <title>Document</title>
     <link rel="stylesheet" href="css.css" />
   </head>
-  <body>
-    <h1>Welcome</h1>
-    <div id="container">
+  <header>
+    <div class="topbar">Count</div>
+  </header>
+
+  <body class="userpage">
+    <div class="faq">
+      <a href="htmlfaq.html"> <button id="faq" type="button">FAQ</button> </a>
+    </div>
+    <div class="counter">
       <div id="number">0</div>
-      <button id="decrement">-</button><button id="increment">+</button>
+    </div>
+    <div class="reset">
+      <button id="reset" type="reset">Reset (R)</button>
+    </div>
+    <div class="container">
+      <div class="leftpicture">
+        <input id="left" type="image" src="leftminus.png" />
+      </div>
+      <div class="rightpicture">
+        <input id="right" type="image" src="rightplus.png" />
+      </div>
+    </div>
+    <div class="refs">
+      Don't get banned use a burner + Help support server costs with referral
+      links below &lt3
+    </div>
+
+    <div class="referrals">
+      <a href="https://rollbit.com/referral/win21">
+        <img id="rollbit" src="rollbit.png" />
+      </a>
+      <a href="https://stake.com/?c=87e02de7da">
+        <img id="stake" src="stakeicon.png" />
+      </a>
+    </div>
+    <div class="chart">
+      <a id="showImage">Toggle Chart</a>
+      <img id="theImage" src="cropped_image.png" />
     </div>
 
     <script src="main.js"></script>
