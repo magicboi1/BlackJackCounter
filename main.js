@@ -6,12 +6,12 @@ let integer = 0;
 let img = document.getElementById("showImage");
 
 window.addEventListener("keydown", function (e) {
-  if (e.key === "ArrowRight") {
+  if (e.key === "d") {
     integer += 1;
     int.innerHTML = integer;
   }
 
-  if (e.key === "ArrowLeft") {
+  if (e.key === "a") {
     integer -= 1;
     int.innerHTML = integer;
   }
